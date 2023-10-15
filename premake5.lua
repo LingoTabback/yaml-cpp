@@ -24,6 +24,8 @@ project "yaml-cpp"
 		"YAML_CPP_STATIC_DEFINE"
 	}
 
+	callingconvention ("FastCall")
+
 	filter "system:windows"
 		systemversion "latest"
 
